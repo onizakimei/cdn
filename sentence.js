@@ -1,13 +1,3 @@
-function getRandomFood() {
-    var result
-    var sentence = [
-      '杜格',
-      '喜碗',
-      '優格',
-      '金罐',
-      '星球'
-    ];
-    var random = Math.floor(Math.random() * (sentence.length));    
-    result = sentence[random]    
-    return result
-}
+let sentence = ['1等','2等','3等','4等','5等','6等'];
+let juzi = Math.floor(Math.random()*sentence.length);
+document.write(sentence[juzi]);
