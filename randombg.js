@@ -63,9 +63,9 @@ var pcindex =Math.ceil(Math.random() * (pcimg.length-1));
 //重设背景图片
 function myFunction(x) {
     if (x.matches) { // 媒体查询
-        document.getElementById("web_bg").style.backgroundImage = mobileimg[mobileindex];
+        document.getElementById("page-header").style.backgroundImage = mobileimg[mobileindex];
     } else {
-       document.getElementById("web_bg").style.backgroundImage = pcimg[pcindex];
+       document.getElementById("page-header").style.backgroundImage = pcimg[pcindex];
     }
 }
 
